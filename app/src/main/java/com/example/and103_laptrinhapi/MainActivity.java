@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
+                //hai
                 Intent intent = new Intent(MainActivity.this, Lab1.class);
                 startActivity(intent);
             }
